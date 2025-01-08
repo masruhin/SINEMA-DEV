@@ -37,7 +37,7 @@ if (empty($_SESSION['username'])) {
                                 <div class="col-lg-10">
                                   <select name="negara_kat" class="select2 form-select form-control" required>
                                     <option>
-                                      LOKAL / Regional
+                                      LOKAL
                                     </option>
                                     <option>
                                       NASIONAL
