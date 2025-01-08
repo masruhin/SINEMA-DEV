@@ -246,8 +246,8 @@ while($hasil = mysqli_fetch_array($data)){
                         <i data-feather="circle"></i>
                         <span data-i18n="Raise Support">LPM</span></a>
                     </li>
-                    <li data-menu="" <?php if (isset($_GET["lap"])){echo 'class="active"';}?>>
-                      <a class="dropdown-item d-flex align-items-center" href="lapker_unit_lp2m.php?lap"
+                    <li data-menu="" <?php if (isset($_GET["kerja"])){echo 'class="active"';}?>>
+                      <a class="dropdown-item d-flex align-items-center" href="kerja_lp2m.php?kerja"
                         data-toggle="dropdown" data-i18n="Raise Support">
                         <i data-feather="circle"></i>
                         <span data-i18n="Raise Support">LP2M</span></a>
@@ -258,27 +258,27 @@ while($hasil = mysqli_fetch_array($data)){
                           data-i18n="Second Level">FIKES</span></a>
                       <ul class="dropdown-menu">
                         <li data-menu="" <?php if (isset($_GET['lap'])) {echo 'class=""active';}?>><a
-                            class="dropdown-item d-flex align-items-center" href="lapker_fikes_ik.php?lap"
+                            class="dropdown-item d-flex align-items-center" href="kerja_fikes_s1_keperawatan.php?kerja"
                             data-toggle="dropdown" data-i18n="Third Level"><i data-feather="circle"></i><span
                               data-i18n="Third Level">Ilmu
                               Keperawatan (S1)</span></a>
                         </li>
-                        <li data-menu="" <?php if (isset($_GET['lap'])) {echo 'class=""active';}?>><a
-                            class="dropdown-item d-flex align-items-center" href="lapker_fikes_far.php?lap"
+                        <li data-menu="" <?php if (isset($_GET['kerja'])) {echo 'class=""active';}?>><a
+                            class="dropdown-item d-flex align-items-center" href="kerja_fikes_s1_farmasi.php?kerja"
                             data-toggle="dropdown" data-i18n="Third Level"><i data-feather="circle"></i><span
                               data-i18n="Third Level">Farmasi
                               (S1)</span></a>
                         </li>
                         <li data-menu=""><a class="dropdown-item d-flex align-items-center"
-                            href="lapker_fikes_bid.php?lap" data-toggle="dropdown" data-i18n="Third Level"><i
+                            href="kerja_fikes_d3_kebidanan.php?kerja" data-toggle="dropdown" data-i18n="Third Level"><i
                               data-feather="circle"></i><span data-i18n="Third Level">Kebidanan (D3)</span></a>
                         </li>
                         <li data-menu=""><a class="dropdown-item d-flex align-items-center"
-                            href="lapker_fikes_per.php?lap" data-toggle="dropdown" data-i18n="Third Level"><i
+                            href="kerja_fikes_d3_keperawatan.php?kerja" data-toggle="dropdown" data-i18n="Third Level"><i
                               data-feather="circle"></i><span data-i18n="Third Level">Keperawatan (D3)</span></a>
                         </li>
                         <li data-menu=""><a class="dropdown-item d-flex align-items-center"
-                            href="lapker_fikes_k3.php?lap" data-toggle="dropdown" data-i18n="Third Level"><i
+                            href="kerja_fikes_k3.php?kerja" data-toggle="dropdown" data-i18n="Third Level"><i
                               data-feather="circle"></i><span data-i18n="Third Level">Keselamatan dan Kesehatan Kerja
                               (D4)</span></a>
                         </li>
@@ -288,7 +288,7 @@ while($hasil = mysqli_fetch_array($data)){
                         </li>
                       </ul>
                     </li>
-                    <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"
+                    <!-- <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"
                       <?php if (isset($_GET['lap'])) {echo 'class=""active';}?>><a
                         class="dropdown-item d-flex align-items-center dropdown-toggle" href="#" data-toggle="dropdown"
                         data-i18n="Second Level"><i data-feather="circle"></i><span
@@ -303,8 +303,14 @@ while($hasil = mysqli_fetch_array($data)){
                               data-feather="circle"></i><span data-i18n="Third Level">Kewirausahaan (S1)</span></a>
                         </li>
                       </ul>
+                    </li> -->
+                     <li data-menu="" <?php if (isset($_GET["kerja"])){echo 'class="active"';}?>>
+                      <a class="dropdown-item d-flex align-items-center" href="kerja_feb.php?kerja"
+                        data-toggle="dropdown" data-i18n="Raise Support">
+                        <i data-feather="circle"></i>
+                        <span data-i18n="Raise Support">FEB</span></a>
                     </li>
-                    <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"
+                    <!-- <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"
                       <?php if (isset($_GET['lap'])) {echo 'class=""active';}?>><a
                         class="dropdown-item d-flex align-items-center dropdown-toggle" href="#" data-toggle="dropdown"
                         data-i18n="Second Level"><i data-feather="circle"></i><span
@@ -315,6 +321,12 @@ while($hasil = mysqli_fetch_array($data)){
                               data-feather="circle"></i><span data-i18n="Third Level">Informatika (S1)</span></a>
                         </li>
                       </ul>
+                    </li> -->
+                    <li data-menu="" <?php if (isset($_GET["kerja"])){echo 'class="active"';}?>>
+                      <a class="dropdown-item d-flex align-items-center" href="kerja_fikom.php?kerja"
+                        data-toggle="dropdown" data-i18n="Raise Support">
+                        <i data-feather="circle"></i>
+                        <span data-i18n="Raise Support">FIKOM</span></a>
                     </li>
               </ul>
             </li>
