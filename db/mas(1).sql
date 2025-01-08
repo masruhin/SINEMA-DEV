@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2025 at 08:36 AM
+-- Generation Time: Jan 08, 2025 at 08:12 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.39
 
@@ -270,47 +270,47 @@ CREATE TABLE `kerjasama` (
 
 INSERT INTO `kerjasama` (`id_kerjasama`, `tingkat`, `id_negara`, `negara_kat`, `pendidikan`, `penelitian`, `pkm`, `id_jenis_dok`, `id_fak`, `id_unit`, `id_bkerja`, `judul_kerjasama`, `deskripsi_kerjasama`, `status_kerjasama`, `tanggal_awal`, `tanggal_akhir`, `no_ref_kerjasama`, `file`, `date_created`, `date_updated`) VALUES
 (1, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 1, 11, 'Apotek A-24 Kota Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '031/Univ.BHAMADA/KL/XI/2021', '560-031. Apotek A-24 Kota Tegal (PKS).pdf', '2023-01-05 13:56:51', '2024-08-16 03:59:51'),
-(2, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Banjaran Sehat Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '027/Univ.BHAMADA/KL/XI/2021', '714-027. Apotek Banjaran Sehat Kab. Tegal (PKS).pdf', '2023-01-05 14:27:22', '2024-04-25 03:11:49'),
+(2, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Banjaran Sehat Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '027/Univ.BHAMADA/KL/XI/2021', '714-027. Apotek Banjaran Sehat Kab. Tegal (PKS).pdf', '2023-01-05 14:27:22', '2025-01-08 05:11:14'),
 (3, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Budi Farma Pangkah Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '027/Univ.BHAMADA/KL/XI/2021', '229-025. Apotek Budi Farma Pangkah Kab. Tegal (PKS).pdf', '2023-01-05 14:36:36', '2024-04-25 03:12:22'),
-(4, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Budi Farma Putra Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '029/Univ.BHAMADA/KL/XI/2021', '229-029. Apotek Budi Farma Putra Kab. Tegal (PKS).pdf', '2023-01-05 14:36:36', '2024-04-25 03:12:52'),
-(5, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Injaya Kab.Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '028/Univ.BHAMADA/KL/XI/2021', '505-028. Apotek Injaya Kab. Tegal (PKS).pdf', '2023-01-05 15:02:12', '2024-04-25 03:13:27'),
-(6, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Jenggul Tarub Kab.Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '021/Univ.BHAMADA/KL/XI/2021', '346-021. Apotek Jenggul Tarub Kab. Tegal (PKS).pdf', '2023-01-05 15:02:12', '2024-04-25 03:14:02'),
-(7, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Nurani Kagok Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '022/Univ.BHAMADA/KL/XI/2021', '923-022. Apotek Nurani Kagok Kab. Tegal (PKS).pdf', '2023-01-05 15:02:12', '2024-08-16 03:46:48'),
-(8, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Nurani Kota Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '032/Univ.BHAMADA/KL/XI/2021', '408-032. Apotek Nurani Tegal (PKS).pdf', '2023-01-05 15:02:12', '2024-04-25 03:15:16'),
-(9, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Perintis Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '026/Univ.BHAMADA/KL/XI/2021', '167-026. Apotek Perintis Kab. Tegal (PKS).pdf', '2023-01-05 15:02:12', '2024-04-25 03:16:49'),
-(10, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Putri Dukuhwaru', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2021-11-15', '023/Univ.BHAMADA/KL/XI/2021', NULL, '2023-01-05 15:02:12', '2024-01-09 03:50:07'),
-(11, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Saras Sehat Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '024/Univ.BHAMADA/KL/XI/2021', '363-024. Apotek Saras Sehat Kab. Tegal (PKS).pdf', '2023-01-05 15:31:26', '2024-04-25 03:18:32'),
-(12, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 11, 'Apotek Sugih Waras Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '030/Univ.BHAMADA/KL/XI/2021', '608-030. Apotek Sugih Waras Kab. Tegal (PKS).pdf', '2023-01-05 15:31:26', '2024-08-16 03:47:48'),
+(4, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Budi Farma Putra Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '029/Univ.BHAMADA/KL/XI/2021', '229-029. Apotek Budi Farma Putra Kab. Tegal (PKS).pdf', '2023-01-05 14:36:36', '2025-01-08 05:11:43'),
+(5, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Injaya Kab.Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '028/Univ.BHAMADA/KL/XI/2021', '505-028. Apotek Injaya Kab. Tegal (PKS).pdf', '2023-01-05 15:02:12', '2025-01-08 05:11:31'),
+(6, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Jenggul Tarub Kab.Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '021/Univ.BHAMADA/KL/XI/2021', '346-021. Apotek Jenggul Tarub Kab. Tegal (PKS).pdf', '2023-01-05 15:02:12', '2025-01-08 05:08:50'),
+(7, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Nurani Kagok Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '022/Univ.BHAMADA/KL/XI/2021', '923-022. Apotek Nurani Kagok Kab. Tegal (PKS).pdf', '2023-01-05 15:02:12', '2025-01-08 05:09:08'),
+(8, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Nurani Kota Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '032/Univ.BHAMADA/KL/XI/2021', '408-032. Apotek Nurani Tegal (PKS).pdf', '2023-01-05 15:02:12', '2025-01-08 05:12:30'),
+(9, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Perintis Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '026/Univ.BHAMADA/KL/XI/2021', '167-026. Apotek Perintis Kab. Tegal (PKS).pdf', '2023-01-05 15:02:12', '2025-01-08 05:10:56'),
+(10, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Putri Dukuhwaru', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2021-11-15', '023/Univ.BHAMADA/KL/XI/2021', NULL, '2023-01-05 15:02:12', '2025-01-08 05:09:21'),
+(11, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Saras Sehat Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '024/Univ.BHAMADA/KL/XI/2021', '363-024. Apotek Saras Sehat Kab. Tegal (PKS).pdf', '2023-01-05 15:31:26', '2025-01-08 05:09:39'),
+(12, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 11, 'Apotek Sugih Waras Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi S1 Farmasi', 'aktif', '2021-11-16', '2026-11-15', '030/Univ.BHAMADA/KL/XI/2021', '608-030. Apotek Sugih Waras Kab. Tegal (PKS).pdf', '2023-01-05 15:31:26', '2025-01-08 05:11:55'),
 (13, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 0, 0, 12, 'Badan Pengembangan dan Pembinaan Bahasa Kementrian Pendidikan, Kebudayaan, Riset dan Teknologi', 'Pelaksanaan Tridharma PT dalam Pengembangan, Pembinaan, dan Perlindungan Kebahasaan serta Kesastraan', 'aktif', '2022-04-19', '2026-04-18', '012/Univ.BHAMADA/KL/IV/2022', '625-012. Badan Pengembangan dan Pembinaan Bahasa Kementrian Pendidikan, Kebudayaan, Riset dan Teknologi (PKS).pdf', '2023-01-05 15:31:26', '2024-04-25 03:19:31'),
 (15, NULL, 1, '', 1, 1, 1, 3, 8, 0, 19, 'Balai Keselamatan dan Kesehatan Kerja Provinsi Jawa Tengah', 'Lahan Praktik Mahasiswa Prodi D4 K3', 'aktif', '2023-12-13', '2026-12-12', '092/Univ.BHAMADA/KL/XII/2023', '856-092. Balai K2 Provinsi Jawa Tengah (PKS).pdf', '2023-01-05 15:31:26', '2024-08-16 03:54:12'),
 (20, NULL, 1, 'LOKAL', 1, 1, 1, 3, 3, 0, 13, 'CV. Pucuk Daun Lestari', '', 'aktif', '2022-01-18', '2027-01-17', '001/Univ.BHAMADA/KL/I/2022', '554-001. CV. Pucuk Daun Lestari (PKS).pdf', '2023-01-05 15:31:26', '2025-01-07 07:22:18'),
 (22, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 0, 0, 14, 'Dinas Pemberdayaan Perempuan dan Perlindungan Anak serta Pengendalian Penduduk dan Keluarga Berencana Kabupaten Tegal', 'Upaya Percepatan Penurunan Stunting Terintegrasi melalui Tridharma PT Penguatan Program Pembangunan Keluarga, Kependudukan dan KB', 'aktif', '2022-03-01', '2022-02-28', '010/Univ.BHAMADA/KL/II/2022', '730-Dinas Pemberdayaan Perempuan dan Perlindungan Anak serta Pengendalian Penduduk dan Keluarga Berencana Kabupaten Tegal.pdf', '2023-01-05 15:48:37', '2024-01-09 03:50:07'),
 (23, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 0, 0, 15, 'Dinkes Kabupaten Tegal', 'Tri Dharma PT', 'aktif', '2020-12-23', '2023-12-22', '215/STIKES-BMD/KL/XII/2020', '732-Dinkes Kabupaten Tegal.pdf', '2023-01-05 15:48:37', '2024-01-09 03:50:07'),
-(25, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 16, 'Griya Hamil Sehat', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-11-10', '2026-11-09', '020/Univ.BHAMADA/KL/XI/2021', '616-020. Griya Hamil Sehat (PKS).pdf', '2023-01-05 15:48:37', '2024-04-25 03:24:06'),
+(25, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 16, 'Griya Hamil Sehat', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-11-10', '2026-11-09', '020/Univ.BHAMADA/KL/XI/2021', '616-020. Griya Hamil Sehat (PKS).pdf', '2023-01-05 15:48:37', '2025-01-08 04:57:09'),
 (26, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 0, 0, 15, 'Imus Institute of Science and Technology (IIST) Philippines', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-11-10', '2026-11-09', '019/Univ.BHAMADA/KL/XI/2021', NULL, '2023-01-05 15:48:37', '2024-01-09 03:50:07'),
 (27, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 17, 'KBIT Siti Khodijah Slawi', 'Pelaksanaan Pendidikan, Penelitian dan Pengabdian Masyarakat Prodi D3 Keperawatan Fakultas Ilmu Kesehatan', 'aktif', '2022-02-11', '2027-02-10', '009/Univ.BHAMADA.KL/II/2022', '884-009. KBIT Siti Khodijah Slawi (PKS).pdf', '2023-01-05 15:48:37', '2024-04-25 03:43:48'),
-(28, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 16, 'Klinik Pratama Hibatullah Harjawinangun ', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-10-01', '2026-09-30', '006/Univ.BHAMADA/KL/X/2021', '604-006. Klinik Pratama Hibatullah Harjawinangun (PKS).pdf', '2023-01-05 15:48:37', '2024-04-25 03:44:27'),
+(28, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 16, 'Klinik Pratama Hibatullah Harjawinangun ', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-10-01', '2026-09-30', '006/Univ.BHAMADA/KL/X/2021', '604-006. Klinik Pratama Hibatullah Harjawinangun (PKS).pdf', '2023-01-05 15:48:37', '2025-01-08 04:54:11'),
 (29, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 0, 0, 0, 'Lembaga Sertifikasi Profesi K3 Industri Buana Lestari', 'Tempat Penyelenggaraan uji kompetensi Keselamatan dan Kesehatan Kerja (K3)', 'nonaktif', '2021-12-06', '2024-12-05', '033/Univ.BHAMADA/KL/XII/2021', '397-Lembaga Sertifikasi Profesi K3 Industri Buana Lestari.pdf', '2023-01-05 15:48:37', '2024-01-09 03:50:07'),
 (30, NULL, 1, 'INTERNASIONAL', 1, 1, 1, 1, 0, 0, 63, 'Lyceum  of  the  Philippines  University (LPU) Philippines', 'Lyceum  of  the  Philippines  University (LPU) Philippines', 'aktif', '2019-01-17', '2024-01-16', '', '115-Lyceum of the Philippnes University-Philippnes.pdf', '2023-01-05 15:48:37', '2024-03-25 06:26:28'),
-(32, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 17, 'PAUD Bina Prestasi', 'Pelaksanaan Pendidikan, Penelitian dan Pengabdian Masyarakat Prodi D3 Keperawatan Fakultas Ilmu Kesehatan', 'aktif', '2022-03-11', '2027-03-10', '011/Univ.BHAMADA/KL/III/2022', '349-011. PAUD Bina Prestasi (PKS).pdf', '2023-01-06 08:22:36', '2024-04-25 03:45:09'),
+(32, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 17, 'PAUD Bina Prestasi', 'Pelaksanaan Pendidikan, Penelitian dan Pengabdian Masyarakat Prodi D3 Keperawatan Fakultas Ilmu Kesehatan', 'aktif', '2022-03-11', '2027-03-10', '011/Univ.BHAMADA/KL/III/2022', '349-011. PAUD Bina Prestasi (PKS).pdf', '2023-01-06 08:22:36', '2025-01-08 04:51:41'),
 (33, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 0, 0, 60, 'Pemerintah Kab. Tegal', 'Tri Dharma Prodi  K3', 'aktif', '2020-12-22', '2025-12-21', '213/STIKES-BMD/KL/XII/2020', '646-Pemerintah Kab. Tegal.pdf', '2023-01-06 08:22:36', '2024-01-09 03:50:07'),
 (34, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 0, 0, 19, 'Pemerintah Kota Cirebon', 'Tri Dharma ', 'aktif', '2020-12-22', '2025-12-21', '220/STIKES-BMD/KL/I/2021', '779-Pemerintah Kota Cirebon.pdf', '2023-01-06 08:22:36', '2024-01-09 03:50:07'),
 (35, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 0, 0, 19, 'Pemerintah Kota Tegal', 'Tri Dharma ', 'aktif', '2021-07-16', '2026-07-15', '221/STIKES-BMD/KL/VII/2021', '938-PEMERINTAHAN KOTA TEGAL.pdf', '2023-01-06 08:22:36', '2024-01-09 03:50:07'),
 (36, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 20, 'Perhimpunan Bank Pengkreditan Rakyat Indonesia Jawa Tengah', 'Program  Merdeka Belajar Kampus Merdeka (MBKM), Lahan Praktik Mahasiswa Fakultas Ekonomi dan Bisnis, Tridharma PT', 'aktif', '2022-01-24', '2027-01-23', '006/Univ.BHAMADA/KL/2022', '347-016. Perhimpunan Bank Pengkreditan Rakyat Indonesia Jawa Tengah (PKS).pdf', '2023-01-06 08:22:36', '2024-04-25 03:47:44'),
-(37, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 16, 'Praktik Mandiri Bidan (Neni Kus A)', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-11-08', '2026-11-07', '018/Univ.BHAMADA/KL/XI/2021', '586-018. Praktik Mandiri Bidan (Neni Kus A) (PKS).pdf', '2023-01-06 08:22:36', '2024-08-16 04:05:44'),
+(37, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 16, 'Praktik Mandiri Bidan (Neni Kus A)', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-11-08', '2026-11-07', '018/Univ.BHAMADA/KL/XI/2021', '586-018. Praktik Mandiri Bidan (Neni Kus A) (PKS).pdf', '2023-01-06 08:22:36', '2025-01-08 04:56:12'),
 (38, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 16, 'Praktik Mandiri Bidan (R. Siti Iva R)', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-11-08', '2026-11-07', '017/Univ.BHAMADA/KL/XI/2021', '224-017. Praktik Mandiri Bidan (R. Siti Iva R) (PKS).pdf', '2023-01-06 08:22:36', '2024-08-16 04:07:56'),
-(39, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 16, 'Praktik Mandiri Bidan (Yeti Nurul S)', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-11-08', '2026-11-07', '016/Univ.BHAMADA/KL/XI/2021', '614-016. Praktik Mandiri Bidan (Yeti Nurul S) (PKS).pdf', '2023-01-06 08:22:36', '2024-08-16 04:08:39'),
+(39, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 16, 'Praktik Mandiri Bidan (Yeti Nurul S)', 'Lahan Praktik Mahasiswa Prodi D3 Kebidanan', 'aktif', '2021-11-08', '2026-11-07', '016/Univ.BHAMADA/KL/XI/2021', '614-016. Praktik Mandiri Bidan (Yeti Nurul S) (PKS).pdf', '2023-01-06 08:22:36', '2025-01-08 04:54:33'),
 (40, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 21, 'PT Amarilys Karisma Gemilang', '', 'aktif', '2021-11-08', '2026-11-07', '016/Univ.BHAMADA/KL/XI/2021', '794-Amarilys Karisma Gemilang.pdf', '2023-01-06 08:22:36', '2024-01-09 03:50:07'),
 (42, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 22, 'PT Kasyr Sibernetika Indonesia', 'Program MBKM, Lahan Praktik Mahasiswa Fakultas Ekonomi dan Bisnis, Tridharma PT', 'aktif', '2022-01-18', '2027-01-17', '002/Univ.BHAMADA/KL/IV/2022', '821-002. PT Kasyr Sibernetika Indonesia (PKS).pdf', '2023-01-06 08:36:32', '2024-08-16 04:10:45'),
 (43, NULL, 1, 'LOKAL', 1, 1, 1, 3, 3, 0, 20, 'PT Nibras Berkah Mullia', 'Program  MBKM, Lahan Praktik Mahasiswa Fakultas Ekonomi dan Bisnis, Tridharma PT', 'aktif', '2022-01-18', '2027-01-17', '003/Univ.BHAMADA/KL/I/2022', '749-PT Nibras Berkah Mulia.pdf', '2023-01-06 08:36:32', '2025-01-07 07:24:42'),
 (44, NULL, 1, 'LOKAL', 1, 1, 1, 3, NULL, NULL, 0, 'PT Putra Bungsu\r\n', '-', 'nonaktif', '2022-01-18', '2027-01-17', '015/Univ.BHAMADA/KL/IV/2022\r\n', NULL, '2023-01-06 08:36:32', '2023-05-31 03:19:39'),
 (45, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 23, 'PT Shinzou ', 'Internship', 'aktif', '2021-10-18', '2024-10-17', '013/Univ.BHAMADA/KL/X/2021', '655-013. PT. Shinzou Panca Indonesia (PKS).pdf', '2023-01-06 08:36:32', '2024-08-16 04:19:03'),
 (46, NULL, 1, 'LOKAL', 1, 1, 1, 3, NULL, NULL, 0, 'PT Somatra Polareka Sarana\r\n', 'Tri Dharma Prodi  K3\r\n', 'aktif', '2018-07-11', '2023-07-10', '182/STIKES-BMD/KL/VII/2018\r\n', NULL, '2023-01-06 08:36:32', '2023-05-31 03:19:39'),
-(47, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 17, 'RA Siti Khodijah Slawi', 'Pelaksanaan Pendidikan, Penelitian dan Pengabdian Masyarakat Prodi D3 Keperawatan Fakultas Ilmu Kesehatan', 'aktif', '2022-02-11', '2027-02-10', '008/Univ.BHAMADA/KL/II/2022', '223-008. RA Siti Khodijah Slawi (PKS).pdf', '2023-01-06 08:36:32', '2024-04-25 04:24:41'),
+(47, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 17, 'RA Siti Khodijah Slawi', 'Pelaksanaan Pendidikan, Penelitian dan Pengabdian Masyarakat Prodi D3 Keperawatan Fakultas Ilmu Kesehatan', 'aktif', '2022-02-11', '2027-02-10', '008/Univ.BHAMADA/KL/II/2022', '223-008. RA Siti Khodijah Slawi (PKS).pdf', '2023-01-06 08:36:32', '2025-01-08 03:47:32'),
 (48, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 24, 'Radar Tegal', 'Pemasangan Iklan', 'aktif', '2021-10-19', '2022-10-19', '014/Univ.BHAMADA/KL/X/2021', '15-Radar Tegal.pdf', '2023-01-06 08:36:32', '2023-05-31 03:19:39'),
 (49, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 26, 'RS Mitra Siaga Tegal', 'Lahan Praktik Mahasiswa D3 Keperawatan, S1 Keperawatan', 'aktif', '2021-09-29', '2024-09-28', '004/Univ.BHAMADA/KL/IX/2021', '475-RS Mitra Siaga Tegal.pdf', '2023-01-06 08:36:32', '2023-05-31 03:19:39'),
 (50, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 0, 'RSI Al Ikhlas Pemalang', 'Lahan Praktik Mahasiswa D3 Keperawatan', 'aktif', '2021-10-15', '2024-10-14', '011/Univ.BHAMADA/KL/X/2021', '226-011. RSI Al-Ikhlas Pemalang (PKS).pdf', '2023-01-06 08:36:32', '2024-04-25 04:00:00'),
-(51, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 26, 'RSI Bhakti Asih Brebes', 'Lahan Praktik Mahasiswa D3 Keperawatan', 'aktif', '2023-10-13', '2025-10-12', '076/Univ.BHAMADA/KL/X/2023', '635-076. RS Bhakti Asih Brebes (PKS).pdf', '2023-01-06 08:51:50', '2024-04-25 03:57:52'),
+(51, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 26, 'RSI Bhakti Asih Brebes', 'Lahan Praktik Mahasiswa D3 Keperawatan', 'aktif', '2023-10-13', '2025-10-12', '076/Univ.BHAMADA/KL/X/2023', '635-076. RS Bhakti Asih Brebes (PKS).pdf', '2023-01-06 08:51:50', '2025-01-08 03:32:23'),
 (52, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 61, 'RSI PKU Muhammadiyah Kab. Tegal', 'Lahan Praktik Mahasiswa D3 Keperawatan, S1 Keperawatan dan Profesi Ners', 'aktif', '2019-12-12', '2022-12-11', '205/STIKES-BMD/KL/XII/2019', '584-RSI PKU Muhamadiyah Kab. tegal.pdf', '2023-01-06 08:51:50', '2023-05-31 03:19:39'),
 (53, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 61, 'RSJD Dr. Amino Gondohutomo Semarang', 'Lahan Praktik Mahasiswa Prodi D3 Keperawatan, Prodi S1 Keperawatan dan Prodi Profesi Ners', 'aktif', '2023-12-01', '2024-04-25', '082/Univ.BHAMADA/KL/XII/2023', '393-082. RSJD Dr. Amino Gondhohutomo Semarang (PKS).pdf', '2023-01-06 08:51:50', '2024-04-25 03:55:10'),
 (54, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 61, 'RSJD Surakarta', 'Lahan Praktik Mahasiswa Prodi D3 Keperawatan, Prodi S1 Keperawatan dan Prodi Profesi Ners', 'aktif', '2021-09-23', '2024-09-22', '002/Univ.BHAMADA/KL/I/2021', '174-002. RSJD Surakarta (PKS).pdf', '2023-01-06 08:51:50', '2024-04-25 03:50:22'),
@@ -320,7 +320,7 @@ INSERT INTO `kerjasama` (`id_kerjasama`, `tingkat`, `id_negara`, `negara_kat`, `
 (58, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 30, 'RSUD Dokter Soeselo Kab. Tegal', 'Lahan Praktik Mahasiswa Prodi D3 Keperawatan, Prodi S1 Keperawatan, Prodi D3 Kebidanan, Prodi S1 Farmasi', 'aktif', '2020-12-23', '2023-12-22', '214/STIKES-BMD/KL/XII/2020', '959-RSUD Dr. Soeselo Kabupaten Tegal.pdf', '2023-01-06 08:51:50', '2023-05-31 03:19:39'),
 (59, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 29, 'RSUD Dr. M. Ashari Pemalang', 'Lahan Praktik Mahasiswa Prodi D3 Keperawatan', 'aktif', '2021-09-28', '2026-09-27', '015/Univ.BHAMADA/KL/X/2021', '36-RSUD Dr. Ashari Pemalang.pdf', '2023-01-06 08:51:50', '2023-05-31 03:19:39'),
 (60, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 61, 'RSUD Gunung Jati Cirebon', 'Lahan Praktik Mahasiswa Prodi Profesi Ners', 'aktif', '2021-09-28', '2024-09-27', '001/Univ.BHAMADA/KL/IX/2021', '64-001. RSUD Gunung Jati Cirebon (PKS).pdf', '2023-01-06 08:51:50', '2024-04-25 04:01:02'),
-(61, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 30, 'RSUD Kardinah Kota Tegal', 'Lahan Praktik Mahasiswa Prodi D3 Keperawatan, Prodi S1 Keperawatan, Prodi D3 Kebidanan, Prodi S1 Farmasi', 'aktif', '2022-05-31', '2027-05-30', '019/Univ.BHAMADA/KL/VI/2022', '640-019. RSUD Kardinah (Revisi) (PKS).pdf', '2023-01-06 09:04:17', '2024-04-25 03:32:06'),
+(61, NULL, 1, 'LOKAL', 1, 1, 1, 3, 1, 0, 30, 'RSUD Kardinah Kota Tegal', 'Lahan Praktik Mahasiswa Prodi D3 Keperawatan, Prodi S1 Keperawatan, Prodi D3 Kebidanan, Prodi S1 Farmasi', 'aktif', '2022-05-31', '2027-05-30', '019/Univ.BHAMADA/KL/VI/2022', '640-019. RSUD Kardinah (Revisi) (PKS).pdf', '2023-01-06 09:04:17', '2025-01-08 03:24:09'),
 (62, NULL, 1, 'LOKAL', 1, 1, 1, 3, 0, 0, 30, 'RSUD Suradadi Kabupaten Tegal', 'Lahan Praktik Mahasiswa Prodi D3 Keperawatan, Prodi S1 Keperawatan, Prodi S1 Farmasi', 'aktif', '2020-12-21', '2025-12-20', '216/STIKES-BMD/KL/XII/2020', '570-RSUD Suradadi Kabupaten Tegal.pdf', '2023-01-06 09:04:17', '2023-05-31 03:19:39'),
 (64, NULL, 1, '', 1, 1, 1, 3, 2, 0, 32, 'SMK Bina Nusa Slawi', 'Program MBKM, Tempat Program Praktek Lapangan, Penelitian dan Pengabdian Kepada Masyarakat Fakultas Ilmu Komputer', 'aktif', '2022-01-18', '2027-01-17', '004/Univ.BHAMADA/KL/II/2022', '538-004. SMK Bina Nusa Slawi (PKS).pdf', '2023-01-06 09:04:17', '2025-01-07 07:19:34'),
 (65, NULL, 1, 'INTERNASIONAL', 1, 1, 1, 3, 0, 0, 34, 'Systems Plus College Foundation (SPCF) - College of Nursing Philippines', 'Exchange of Faculty members, Join research activities, Jurnal Publication, Staff development projects', 'aktif', '2022-06-02', '2027-06-01', '-', '416-System Plus College Foundation (SPCF) – College of Nursing Philippines.pdf', '2023-01-06 09:04:17', '2023-05-31 03:19:39'),
@@ -349,34 +349,34 @@ INSERT INTO `kerjasama` (`id_kerjasama`, `tingkat`, `id_negara`, `negara_kat`, `
 (92, NULL, NULL, 'LOKAL', 1, 1, 1, 3, 0, 0, 49, 'PT Enam KUBUKU Indonesia', 'Penggunaan Aplikasi Program Perpustakaan Digital', 'aktif', '2021-04-21', '2026-04-20', '', '258-PT Enam KUBUKU Indonesia.pdf', '2023-01-06 10:30:11', '2023-05-19 06:15:01'),
 (93, NULL, NULL, 'LOKAL', 1, 1, 1, 3, 0, 0, 50, 'Perpustakaan Nasional RI', 'Kerja Sama Perpustakaan', 'aktif', '2019-12-16', '2024-12-15', '171/STIKES-BMD/KL/XII/2019', '513-Perpustakaan Nasional RI.pdf', '2023-01-06 10:31:02', '2023-05-19 06:15:08'),
 (94, NULL, NULL, 'LOKAL', 1, 1, 1, 3, 0, 0, 51, 'Gadar Medik Indonesia', '-', 'aktif', '2022-10-11', '2025-12-10', '-', '447-Gadar Medik Indonesia.pdf', '2023-01-06 03:31:46', '2023-05-19 06:15:13'),
-(95, NULL, 0, 'NASIONAL', 1, 1, 1, 1, 0, 0, 16, 'Indonesian Holistic Care Association (IHCA)', '', 'aktif', '2021-11-10', '2026-11-09', '019/Univ.BHAMADA/KL/XI/2021', '952-019. Indonesian Holistic Care Association (IHCA) (PKS).pdf', '2023-03-08 02:35:38', '2024-08-16 03:55:33'),
+(95, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 1, 0, 16, 'Indonesian Holistic Care Association (IHCA)', '', 'aktif', '2021-11-10', '2026-11-09', '019/Univ.BHAMADA/KL/XI/2021', '952-019. Indonesian Holistic Care Association (IHCA) (PKS).pdf', '2023-03-08 02:35:38', '2025-01-08 04:56:47'),
 (97, NULL, 0, 'LOKAL', 1, 0, 0, 3, 5, 0, 19, 'RSUD Kajen Pekalongan', 'Kuliah Kerja Nyata Mahasiswa', 'aktif', '2023-01-03', '2028-01-31', '001/Univ-BHAMADA/KL/I/2023', '2023-11-30_001. RSUD Kajen (PKS).pdf', '2023-11-30 03:49:02', '2023-11-30 03:50:35'),
 (98, NULL, 0, 'LOKAL', 1, 1, 1, 1, 1, 0, 52, 'Universitas Widya Husada Semarang', '', 'aktif', '2023-01-31', '2028-01-30', '002/Univ.BHAMADA/KL/I/2023', '2023-11-30_002. Universitas Widya Husada Semarang (MoU).pdf', '2023-11-30 03:53:08', '2023-11-30 03:58:01'),
 (99, NULL, 0, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'STIKes Muhammadiyah Tegal', '', 'aktif', '2023-05-10', '2028-05-09', '007/Univ.BHAMADA/MOU/V/2023', '2023-11-30_007. STIKes Muhammadiyah Tegal (MoU).pdf', '2023-11-30 03:55:58', '2023-11-30 04:08:47'),
 (100, NULL, 1, 'LOKAL', 1, 0, 0, 1, 0, 0, 27, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan Rumah Sakit Umum Daerah Kajen Kabupaten Pekalongan', '', 'aktif', '2022-01-03', '2025-12-31', '011/Univ-BHAMADA/KL/I/2023', '2023-12-14_001. RSUD Kajen (PKS).pdf', '2023-12-14 02:22:59', NULL),
 (101, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 11, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan Apotek Kimia Farma Unit Bisnis Pekalongan ', '', 'aktif', '2023-10-16', '2028-10-16', '079/Univ-BHAMADA/KL/X/2023', '2023-12-14_079. Apotek Kimia Farma Unit Bisnis Pekalongan (PKS).pdf', '2023-12-14 02:30:11', '2023-12-14 03:11:15'),
 (102, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 17, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan RS Bhakti Asih Brebes', '', 'aktif', '2023-10-13', '2025-10-13', '076/Univ.BHAMADA/KL/X/2023', '2023-12-14_076. RS Bhakti Asih Brebes (PKS).pdf', '2023-12-14 03:02:42', NULL),
-(103, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 56, 'Perjanjian kerjasama antara Prodi Keselamatan dan Kesehatan kerja (D-IV) Universitas Bhamada Slawi dengan PT. Hamana Works Indonesia', '', 'aktif', '2023-05-15', '2026-05-15', '064/Univ.BHAMADA/KL/V/2023', '2023-12-14_064. PT Hamana Works Indonesia (PKS).pdf', '2023-12-14 04:07:24', NULL),
+(103, NULL, 1, 'LOKAL', 1, 1, 1, 1, 8, 0, 56, 'Perjanjian kerjasama antara Prodi Keselamatan dan Kesehatan kerja (D-IV) Universitas Bhamada Slawi dengan PT. Hamana Works Indonesia', '', 'aktif', '2023-05-15', '2026-05-15', '064/Univ.BHAMADA/KL/V/2023', '2023-12-14_064. PT Hamana Works Indonesia (PKS).pdf', '2023-12-14 04:07:24', '2025-01-08 05:27:34'),
 (104, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 15, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan STIKes Bethesda Yakkum', '', 'aktif', '2023-05-12', '2026-05-12', '061/Univ.BHAMADA/KL/V/2023', '2023-12-14_061. STIKes Bethesda Yakkum Yogyakarta (PKS).pdf', '2023-12-14 04:10:45', NULL),
 (105, NULL, 0, 'LOKAL', 1, 1, 1, 1, 0, 0, 17, 'Perjanjian Kerjasama antara Fakultas Ilmu kesehatan Universitas Bhamada Slawi dengan RS Amanah Mahmudah Brebes ', '', 'aktif', '2023-05-10', '2024-05-10', '053/Univ.BHAMADA/KL/V/2023', '2023-12-14_053. RS Amanah Mahmudah Brebes (PKS).pdf', '2023-12-14 04:14:32', NULL),
 (106, NULL, 1, 'LOKAL', 1, 1, 1, 0, 0, 0, 48, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan STIKes Brebes', '', 'aktif', '2023-03-09', '2028-03-09', '050/Univ.BHAMADA/KL/III/2023', '2023-12-14_050. STIKes Brebes (PKS).pdf', '2023-12-14 04:17:15', NULL),
-(107, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan PT. Sampharindo Perdana Semarang', '', 'aktif', '2023-06-15', '2025-06-15', '063/Univ.BHAMADA/KL/VI/2023', '2023-12-14_063. PT Sampharindo Perdana Semarang.pdf', '2023-12-14 04:21:31', NULL),
-(108, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan RSJD Dr. Amino Gondohutomo Provinsi Jateng', '', 'aktif', '2023-12-01', '2026-12-01', '082/Univ.BHAMADA/KL/XII/2023', '2023-12-14_082. RSJD Dr. Amino Gondhohutomo Semarang (PKS).pdf', '2023-12-14 04:24:13', NULL),
+(107, NULL, 1, 'LOKAL', 1, 1, 1, 1, 1, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan PT. Sampharindo Perdana Semarang', '', 'aktif', '2023-06-15', '2025-06-15', '063/Univ.BHAMADA/KL/VI/2023', '2023-12-14_063. PT Sampharindo Perdana Semarang.pdf', '2023-12-14 04:21:31', '2025-01-08 05:14:24'),
+(108, NULL, 1, '', 1, 1, 1, 1, 1, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan RSJD Dr. Amino Gondohutomo Provinsi Jateng', 'RSJD Dr Amino Gondohutomo Provinsi Jawa Tengah', 'aktif', '2023-12-01', '2026-12-01', '082/Univ.BHAMADA/KL/XII/2023', '2023-12-14_082. RSJD Dr. Amino Gondhohutomo Semarang (PKS).pdf', '2023-12-14 04:24:13', '2025-01-08 03:33:14'),
 (109, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan CV. Graha Ilmu', '', 'aktif', '2023-10-10', '2024-10-10', '078/Univ.BHAMADA/KL/X/2023', '2023-12-14_078. CV Graha Ilmu (PKS).pdf', '2023-12-14 04:26:43', NULL),
 (110, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 27, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan RSUD Brebes', '', 'aktif', '2023-10-11', '2025-10-11', '075/Univ.BHAMDA/KL/X/2023', '2023-12-14_075. RSUD Brebes (PKS).pdf', '2023-12-14 04:48:46', NULL),
 (111, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada dengan PT. Anugerah Argon Medica', '', 'aktif', '2023-07-27', '2028-07-27', '071/Univ.BHAMADA/KL/VII/2023', '2023-12-14_071. PT Anugrah Argon Medica (PKS).pdf', '2023-12-14 07:41:35', NULL),
 (112, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 0, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan Puskesmas Pangkah', '', 'aktif', '2023-08-01', '2024-08-01', '070/Univ.BHAMADA/KL/VIII/2023', '2023-12-14_070. Puskesmas Pangkah (PKS).pdf', '2023-12-14 07:44:46', NULL),
 (113, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 0, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan Lembaga Farmasi TNI Angkatan Laut Drs. Moch. Kamal', '', 'aktif', '2023-08-10', '2024-08-10', '069/Univ.BHAMADA/KL/VIII/2023', '2023-12-14_069 Lembaga Farmasi TNI AL Drs. Moch Kamal (PKS).pdf', '2023-12-14 07:47:52', NULL),
-(115, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 27, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan RS Harapan Sehat Slawi', '', 'aktif', '2023-05-10', '2028-05-10', '058/Univ.BHAMADA/KL/V/2023', '2023-12-14_058. RS Harapan Sehat Slawi (FIKES) (PKS).pdf', '2023-12-14 07:57:35', NULL),
+(115, NULL, 1, '', 1, 1, 1, 1, 1, 0, 27, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan RS Harapan Sehat Slawi', 'RS Harapan Sehat Slawi', 'aktif', '2023-05-10', '2028-05-10', '058/Univ.BHAMADA/KL/V/2023', '2023-12-14_058. RS Harapan Sehat Slawi (FIKES) (PKS).pdf', '2023-12-14 07:57:35', '2025-01-08 03:30:15'),
 (116, NULL, 1, 'LOKAL', 1, 1, 1, 1, 3, 0, 13, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan Badan Usaha Milik Desa (BUMDES) Desa Dukuhwringin Slawi Tegal', '', 'aktif', '2023-05-10', '2028-05-10', '057/Univ.BHAMADA/KL/V/2023', '2023-12-14_057. Bumdes Wringin Sejahtera Slawi (PKS).pdf', '2023-12-14 08:00:04', '2025-01-07 07:29:43'),
 (117, NULL, 1, '', 1, 1, 1, 1, 0, 0, 0, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan STKIP NU TEGAL', '', 'aktif', '2023-05-10', '2028-05-10', '056/Univ.BHAMADA/KL/V/2023', '2023-12-14_056. Sekolah Tinggi Ilmu Keguruan dan Pendidikan NU Tegal (PKS).pdf', '2023-12-14 08:02:19', '2025-01-07 07:17:37'),
 (118, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 0, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan STIKES Muhammadiyah Tegal', '', 'aktif', '2023-05-10', '2028-05-10', '054/Univ.BHAMADA/KL/V/2023', '2023-12-14_054. STIKes Muhammadiyah Tegal (PKS).pdf', '2023-12-14 08:04:08', NULL),
 (119, NULL, 0, 'LOKAL', 1, 1, 1, 1, 0, 0, 0, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan RS Hawari Essa Lebaksiu Tegal', '', 'aktif', '2023-05-10', '2026-05-10', '052/Univ.BHAMADA/KL/V/2023', '2023-12-14_052. RS Hawari  Essa Slawi (PKS).pdf', '2023-12-14 08:06:32', NULL),
 (120, NULL, 1, 'LOKAL', 1, 1, 1, 1, 3, 0, 20, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan SMA N 3 Slawi', '', 'aktif', '2023-05-08', '2028-05-08', '051/Univ.BHAMADA/KL/V/2023', '2023-12-14_051 SMA Negeri 3 Slawi (PKS).pdf', '2023-12-14 08:09:17', '2025-01-07 07:29:15'),
 (121, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan Universitas Widya Husada Semarang', '', 'aktif', '2023-01-31', '2028-01-31', '002/Univ.BHAMADA/KL/I/2023', '2023-12-14_002. Universitas Widya Husada Semarang (MoU).pdf', '2023-12-14 08:12:53', NULL),
-(122, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan Bagian Farmasi Kepolisian', '', 'aktif', '2023-06-22', '2028-06-22', '068/Univ.BHAMADA/KL/VI/2023', '2023-12-14_068. Bagian Farmasi Kepolisian (PKS).pdf', '2023-12-14 08:16:10', NULL),
-(123, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan PT. Bhineka Mitra Sejati Semarang', '', 'aktif', '2023-06-19', '2028-06-19', '066/Univ.BHAMADA/KL/VI/2023', '2023-12-14_066. PT Bhineka Mitra Sejati Semarang (PKS).pdf', '2023-12-14 08:18:01', NULL),
-(124, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 60, 'Perjanjian Kerjasama antara Unversitas Bhamada Slawi dengan PT. Adhikarilab Indonesia', '', 'aktif', '2023-05-10', '2028-05-10', '060/Univ.BHAMADA/KL/V/2023', '2023-12-14_060. PT Adhikarilab Indonesia (PKS).pdf', '2023-12-14 08:20:37', NULL),
+(122, NULL, 1, 'LOKAL', 1, 1, 1, 1, 1, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan Bagian Farmasi Kepolisian', '', 'aktif', '2023-06-22', '2028-06-22', '068/Univ.BHAMADA/KL/VI/2023', '2023-12-14_068. Bagian Farmasi Kepolisian (PKS).pdf', '2023-12-14 08:16:10', '2025-01-08 05:14:50'),
+(123, NULL, 1, 'LOKAL', 1, 1, 1, 1, 1, 0, 52, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan PT. Bhineka Mitra Sejati Semarang', '', 'aktif', '2023-06-19', '2028-06-19', '066/Univ.BHAMADA/KL/VI/2023', '2023-12-14_066. PT Bhineka Mitra Sejati Semarang (PKS).pdf', '2023-12-14 08:18:01', '2025-01-08 05:14:37'),
+(124, NULL, 1, 'LOKAL', 1, 1, 1, 1, 8, 0, 60, 'Perjanjian Kerjasama antara Unversitas Bhamada Slawi dengan PT. Adhikarilab Indonesia', '', 'aktif', '2023-05-10', '2028-05-10', '060/Univ.BHAMADA/KL/V/2023', '2023-12-14_060. PT Adhikarilab Indonesia (PKS).pdf', '2023-12-14 08:20:37', '2025-01-08 05:27:17'),
 (125, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 0, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan TPS3R Pratama Jaya Kabupaten Tegal', '', 'aktif', '2023-07-27', '2024-07-27', '059/Univ.BHAMADA/KL/VIII/2023', '2023-12-14_059a. TPS3R Pratama Jaya Kab Tegal (PKS).pdf', '2023-12-14 08:22:34', NULL),
 (126, NULL, 1, 'LOKAL', 0, 0, 0, 1, 0, 0, 0, 'Perjanjian Kerjasama antara Universitas Bhamada Slawi dengan PT. POS Indonesia (PERSERO) Kantor Pos Tegal', '', 'aktif', '2023-02-27', '2025-02-27', '046/Univ.BHAMADA/KL/II/2023', '2023-12-14_046. PT Kantor Pos Tegal (PKS).pdf', '2023-12-14 08:25:04', NULL),
 (127, NULL, 1, 'LOKAL', 1, 1, 1, 1, 0, 0, 52, 'Perjanjian kerjasama antara Universitas Bhamada Slawi dengan STKIP NU Tegal', '', 'aktif', '2023-05-10', '2028-05-10', '009/Univ.BHAMADA/MOU/V/2023', '2023-12-14_009. Sekolah Tinggi Ilmu Keguruan Pendidikan NU Tegal (MoU).pdf', '2023-12-14 08:27:34', NULL),
@@ -403,7 +403,7 @@ INSERT INTO `kerjasama` (`id_kerjasama`, `tingkat`, `id_negara`, `negara_kat`, `
 (152, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'UNIVERSITAS SARI MUTIARA ', '', 'aktif', '2023-05-17', '2026-05-16', '065/.BHAMADA/KL/V/2023', '2024-08-21_065. Universitas Sari Mutiara (PKS).pdf', '2024-08-21 03:32:05', NULL),
 (153, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'PT ANUGRAH ARGON MEDICA', '', 'aktif', '2023-07-27', '2028-07-26', '071/Univ.BHMADA/KL/VII/2023', '2024-08-21_071. PT Anugrah Argon Medica (PKS).pdf', '2024-08-21 03:34:45', NULL),
 (154, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'PT ESTU ADIRTA (INIKARIR GLOBAL)', '', 'aktif', '2023-08-08', '2026-08-07', '073/Univ.BHAMADA/KL/VIII/2023', '2024-08-21_073. PT Estu Adiarta (Inikarir Global) (PKS).pdf', '2024-08-21 03:38:37', NULL),
-(155, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'RUMAH SAKIT DAERAH BREBES', '', 'aktif', '2023-10-11', '2025-10-10', '075/Univ.BHAMADA/KL/X/2023', '2024-08-21_075. RSUD Brebes (PKS).pdf', '2024-08-21 03:43:34', NULL),
+(155, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 1, 0, 30, 'RUMAH SAKIT DAERAH BREBES', 'RSUD Brebes', 'aktif', '2023-10-11', '2025-10-10', '075/Univ.BHAMADA/KL/X/2023', '2024-08-21_075. RSUD Brebes (PKS).pdf', '2024-08-21 03:43:34', '2025-01-08 03:31:45'),
 (156, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'FFPTI JATENG', '', 'aktif', '2023-08-26', '2024-08-25', '081/Univ.BHAMADA/KL/XI/2023', '2024-08-21_081 FPPTI Jateng (Turnitin Similarity).pdf', '2024-08-21 03:47:51', NULL),
 (157, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'STIKES BAKTI UTAMA PATI', '', 'aktif', '2023-08-30', '2026-08-29', '080/Univ.BHAMADA/KL/XI/2023', '2024-08-21_080. STIKes Bakti Utama Pati (PKS).pdf', '2024-08-21 03:53:01', NULL),
 (158, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'RSJD DR. AMINO GONDOHUTOMO', '', 'aktif', '2023-12-01', '2026-11-30', '082/Univ.BHMADA/KL/XII/2023', '2024-08-21_082. RSJD Dr. Amino Gondhohutomo Semarang (PKS).pdf', '2024-08-21 04:01:10', NULL),
@@ -417,11 +417,11 @@ INSERT INTO `kerjasama` (`id_kerjasama`, `tingkat`, `id_negara`, `negara_kat`, `
 (167, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'UNIVERSITAS PERADABAN', '', 'aktif', '2024-01-08', '2027-01-07', '002/Univ.BHAMADA/KL/I/2024', '2024-08-22_002 Universitas Peradaban (FIKES) (PKS).pdf', '2024-08-22 01:04:05', NULL),
 (168, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 3, 0, 13, 'PT. SMARTFREN TELECOM Tbk', '', 'aktif', '2024-06-25', '2029-06-24', '002/Univ.BHAMADA/MOU/VI/2024', '2024-08-22_002. PT Smartfren Telecom TBk (MOU).pdf', '2024-08-22 01:07:28', '2025-01-07 07:35:29'),
 (169, NULL, 1, 'NASIONAL', 1, 1, 1, 0, 0, 0, 0, 'PERPUSTAKAAN POLITEKNIK KESELAMATAN TRANSPORTASI JALAN', '', 'aktif', '2024-02-23', '2029-02-22', '006/Univ.BHAMADA/KL/II/2024', '2024-08-22_Perpustakaan Politeknik Keselamatan Transportasi Jalan.pdf', '2024-08-22 01:15:28', NULL),
-(170, NULL, 1, 'NASIONAL', 1, 1, 1, 0, 0, 0, 0, 'PEMERINTAH KAB TEGAL', '', 'aktif', '2024-06-20', '2029-06-19', '013/Univ.BHAMADA/KL/VI/2024', '2024-08-22_013. Dinas Kesehatan Kab Tegal (PKS).pdf', '2024-08-22 01:20:11', NULL),
-(171, NULL, 1, 'NASIONAL', 1, 1, 1, 0, 0, 0, 0, 'RUMAH SAKIT AMANAH MAHMUDAH BREBES', '', 'aktif', '2024-07-15', '2025-07-14', '018/Univ.BHAMADA/KL/VII/2024', '2024-08-22_018. RS Amanah Mahmudah Brebes (2024).pdf', '2024-08-22 01:23:25', NULL),
+(170, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 27, 'Dinas Kesehatan Kabupaten Tegal', 'Dinas Kesehatan Kabupaten Tegal', 'aktif', '2024-06-20', '2029-06-19', '013/Univ.BHAMADA/KL/VI/2024', '2024-08-22_013. Dinas Kesehatan Kab Tegal (PKS).pdf', '2024-08-22 01:20:11', '2025-01-08 03:45:11'),
+(171, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 30, 'RUMAH SAKIT AMANAH MAHMUDAH BREBES', '', 'aktif', '2024-07-15', '2025-07-14', '018/Univ.BHAMADA/KL/VII/2024', '2024-08-22_018. RS Amanah Mahmudah Brebes (2024).pdf', '2024-08-22 01:23:25', '2025-01-08 03:38:07'),
 (172, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'SD KHALIFA IMS TEGAL', '', 'aktif', '2024-07-02', '2029-07-01', '017/Univ.BHAMADA/KL/VII/2024', '2024-08-22_SD Khalifah.pdf', '2024-08-22 01:30:59', NULL),
 (173, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'TOKO ALAT KESEHATAN', '', 'aktif', '2024-01-05', '2029-01-04', '005/Univ.BHAMADA/MOU/I/2024', '2024-08-22_005 Toko Alat Kesehatan (MoU) 2024.pdf', '2024-08-22 01:33:56', NULL),
-(174, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'MI ALAM ANANDA MANDIRI KECAMATAN SLAWI', '', 'aktif', '2024-02-05', '2029-02-04', '005/Univ.BHAMADA/KL/II/2024', '2024-08-22_005. MI Alam Ananda Mandiri (PKS).pdf', '2024-08-22 01:36:53', NULL),
+(174, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 1, 0, 0, 'MI ALAM ANANDA MANDIRI KECAMATAN SLAWI', '', 'aktif', '2024-02-05', '2029-02-04', '005/Univ.BHAMADA/KL/II/2024', '2024-08-22_005. MI Alam Ananda Mandiri (PKS).pdf', '2024-08-22 01:36:53', '2025-01-08 05:18:01'),
 (175, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'PT.BARATA INDONESIA (PERSERO)', '', 'aktif', '2024-05-27', '2029-05-26', '008/VUniv>BHAMADA/KL/V/2024', '2024-08-22_PT Barata Indonesia.pdf', '2024-08-22 01:41:03', NULL),
 (176, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 0, 0, 0, 'PT. DESTEKNOLOGI INFORMASI', '', 'aktif', '2023-11-01', '2025-10-31', '053D/DESNET/DESACCESS/UNIVBHAMADA/XI/2023', '2024-08-22_PT Des Teknologi Informasi.pdf', '2024-08-22 01:46:55', NULL),
 (177, NULL, 1, 'NASIONAL', 1, 1, 1, 1, 3, 0, 13, 'TB NUSA JAYA', '', 'aktif', '2023-09-04', '2028-09-03', '016/Univ.BHAMADA/MOU/IX/2023', '2024-08-22_TB Nusa Jaya.pdf', '2024-08-22 01:49:21', '2025-01-07 07:32:39'),
@@ -444,7 +444,31 @@ INSERT INTO `kerjasama` (`id_kerjasama`, `tingkat`, `id_negara`, `negara_kat`, `
 (196, NULL, 1, '', 1, 1, 1, 3, 3, 0, 13, 'PT Gunung Slamat', 'Program MBKM, Tempat Program Praktek Lapangan, Penelitian dan Pengabdian kepada Masyarakat', 'aktif', '2022-11-20', '2027-11-09', '025/Univ.BHAMADA/KL/X/2022', NULL, '2025-01-07 07:27:31', NULL),
 (197, NULL, 1, '', 1, 1, 1, 3, 3, 0, 13, 'SMA Negeri 2 Slawi', 'Program MBKM, Tempat Program Praktek Lapangan, Penelitian dan Pengabdian kepada Masyarakat', 'aktif', '2022-10-10', '2027-10-09', '031/Univ.BHAMADA/KL/X/2022', NULL, '2025-01-07 07:28:45', NULL),
 (198, NULL, 0, '', 1, 1, 1, 3, 3, 0, 32, 'CV Alisa', 'Penyelenggaraan Tridharma PT', 'aktif', '2024-01-05', '2029-01-04', '005/Univ.BHAMADA/KL/I/2024', NULL, '2025-01-07 07:31:09', NULL),
-(199, NULL, 1, '', 1, 1, 1, 3, 0, 0, 13, 'Institut Teknologi Bisnis dan Bahasa (ITBA) Dian Cipta Cendekia', 'Program MBKM, Tempat Program Praktek Lapangan, Penelitian dan Pengabdian kepada Masyarakat', 'aktif', '2024-05-29', '2024-05-28', '010/Univ.BHAMADA/KL/V/2024', NULL, '2025-01-07 07:34:13', NULL);
+(199, NULL, 1, '', 1, 1, 1, 3, 0, 0, 13, 'Institut Teknologi Bisnis dan Bahasa (ITBA) Dian Cipta Cendekia', 'Program MBKM, Tempat Program Praktek Lapangan, Penelitian dan Pengabdian kepada Masyarakat', 'aktif', '2024-05-29', '2024-05-28', '010/Univ.BHAMADA/KL/V/2024', NULL, '2025-01-07 07:34:13', NULL),
+(200, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 61, 'RSI PKU Muhammadiyah Kab Tegal', 'RSI PKU Muhammadiyah Kab Tegal', 'aktif', '2022-10-12', '2025-10-11', '033/Univ.BHAMADA/KL/X/2022  ', NULL, '2025-01-08 03:26:53', NULL),
+(201, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 30, 'RS Hawari Essa Lebaksiu Tegal', 'RS Hawari Essa Lebaksiu Tegal', 'aktif', '2023-05-10', '2025-05-09', '018/Univ.BHAMADA/KL/V/2023', NULL, '2025-01-08 03:28:35', NULL),
+(202, NULL, 1, '', 1, 1, 1, 3, 1, 0, 17, 'RSUD Suradadi', 'RSUD Suradadi', 'aktif', '2024-06-20', '2024-06-19', '014/Univ.BHAMADA/KL/VI/2024', NULL, '2025-01-08 03:34:22', NULL);
+INSERT INTO `kerjasama` (`id_kerjasama`, `tingkat`, `id_negara`, `negara_kat`, `pendidikan`, `penelitian`, `pkm`, `id_jenis_dok`, `id_fak`, `id_unit`, `id_bkerja`, `judul_kerjasama`, `deskripsi_kerjasama`, `status_kerjasama`, `tanggal_awal`, `tanggal_akhir`, `no_ref_kerjasama`, `file`, `date_created`, `date_updated`) VALUES
+(203, NULL, 1, '', 1, 1, 1, 3, 1, 0, 30, 'RS Mitra Siaga Kab Tegal', 'RS Mitra Siaga Kab Tegal', 'aktif', '2024-08-08', '2027-08-07', '022/Univ.BHAMADA/KL/VIII/2024', NULL, '2025-01-08 03:39:39', '2025-01-08 04:49:44'),
+(204, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 17, 'RSD Gunung Jati Kota Cirebon ', 'RSD Gunung Jati Kota Cirebon ', 'aktif', '2024-09-28', '2027-09-28', '027/Univ.BHAMADA/KL/IX/2024', NULL, '2025-01-08 03:41:27', NULL),
+(205, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 17, 'Pemerintah Kabupaten Tegal', 'Pemerintah Kabupaten Tegal', 'aktif', '2024-06-20', '2027-06-19', '012/Univ.BHAMADA/KL/VI/2024', NULL, '2025-01-08 03:44:49', NULL),
+(206, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 51, 'Gadar Medik Indonesia', 'Gadar Medik Indonesia', 'aktif', '2024-10-11', '2025-10-10', '030/Univ.BHAMADA/KL/X/2022', NULL, '2025-01-08 03:46:55', NULL),
+(207, NULL, 1, '', 1, 1, 1, 3, 1, 0, 17, 'KBIT Siti Khodijah Slawi', 'KBIT Siti Khodijah Slawi', 'aktif', '2022-02-11', '2027-02-10', '009/Univ.BHAMADA/KL/II/2022', NULL, '2025-01-08 03:48:45', NULL),
+(208, NULL, 1, '', 1, 1, 1, 3, 1, 0, 17, 'SLB Negeri Slawi', 'SLB Negeri Slawi', 'aktif', '2022-02-15', '2027-02-15', '010/Univ.BHAMADA/KL/II/2022', NULL, '2025-01-08 03:51:20', NULL),
+(209, NULL, 1, '', 1, 1, 1, 3, 1, 0, 15, 'RSJD Dr Arif Zainudin Provinsi Jawa Tengah', 'RSJD Dr Arif Zainudin Provinsi Jawa Tengah', 'aktif', '2024-08-01', '2027-08-01', '021/Univ.BHAMADA/KL/VIII/2024', NULL, '2025-01-08 04:48:38', NULL),
+(210, NULL, 1, '', 1, 1, 1, 3, 1, 0, 16, 'Praktik Mandiri Bidan (R. Siti Iva Rifda C)', 'Praktik Mandiri Bidan (R. Siti Iva Rifda C)', 'aktif', '2021-11-08', '2026-11-08', '017/Univ.BHAMADA/KL/X/2021', NULL, '2025-01-08 04:55:52', NULL),
+(211, NULL, 1, '', 1, 1, 1, 3, 1, 0, 16, ' Klinik Pratama Bregas Mulya', 'Klinik Pratama Bregas Mulya', 'aktif', '2022-12-21', '2027-12-21', '040/Univ.BHAMADA/KL/X/2022', NULL, '2025-01-08 04:58:12', NULL),
+(212, NULL, 1, '', 1, 1, 1, 3, 1, 0, 16, 'Klinik Pratama Hj. Sumiati', 'Klinik Pratama Hj. Sumiati', 'aktif', '2022-12-21', '2027-12-21', '041/Univ.BHAMADA/KL/X/2022', NULL, '2025-01-08 04:59:38', NULL),
+(213, NULL, 1, '', 1, 1, 1, 3, 1, 0, 16, 'Klinik Mitra Bunda', 'Klinik Mitra Bunda', 'aktif', '2022-12-21', '2027-12-21', '042/Univ.BHAMADA/KL/X/2022', NULL, '2025-01-08 05:01:20', NULL),
+(214, NULL, 1, '', 1, 1, 1, 3, 1, 0, 11, 'Apotek Budi Farma Pangkah', 'Apotek Budi Farma Pangkah', 'aktif', '2021-11-16', '2026-11-16', '025/Univ.BHAMADA/KL/XI/2021', NULL, '2025-01-08 05:10:38', NULL),
+(215, NULL, 1, '', 0, 0, 0, 3, 1, 0, 11, 'RSUD Kajen Pekalongan', 'RSUD Kajen Pekalongan', 'aktif', '2023-11-03', '2025-11-03', '001/Univ.BHAMADA/KL/I/2023', NULL, '2025-01-08 05:13:23', NULL),
+(216, NULL, 1, 'NASIONAL', 0, 0, 0, 3, 1, 0, 11, 'Apotek Kimia Farma Unit Bisnis Pekalongan', 'Apotek Kimia Farma Unit Bisnis Pekalongan', 'aktif', '2023-10-16', '2028-10-16', '079/Univ.BHAMADA/KL/X/2023', NULL, '2025-01-08 05:14:08', NULL),
+(217, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 52, 'PT Anugrah Argon Medica Tegal', 'PT Anugrah Argon Medica Tegal', 'aktif', '2023-07-27', '2028-07-27', '071/Univ.BHAMADA/KL/VI/2023', NULL, '2025-01-08 05:16:37', NULL),
+(218, NULL, 1, 'NASIONAL', 1, 1, 1, 3, 1, 0, 15, 'Lembaga Farrmasi TNI AL Drs Moch Kamal Jakarta Pusat', 'Lembaga Farrmasi TNI AL Drs Moch Kamal Jakarta Pusat', 'aktif', '2024-09-27', '2028-09-27', '025/Univ.BHAMADA/KL/IX/2024', NULL, '2025-01-08 05:17:44', NULL),
+(219, NULL, 1, '', 1, 1, 1, 3, 8, 0, 56, 'PT Gunung Slamat ', 'PT Gunung Slamat ', 'aktif', '2022-11-10', '2027-11-09', '026/Univ.BHAMADA/KL/X/2022', NULL, '2025-01-08 05:26:45', NULL),
+(220, NULL, 1, '', 1, 1, 1, 0, 8, 0, 56, 'Balai Keselamatan Kerja Provinsi Jawa Tengah ', 'Balai Keselamatan Kerja Provinsi Jawa Tengah ', 'aktif', '2023-12-13', '2008-12-12', '092/Univ.BHAMADA/KL.XII/2023', NULL, '2025-01-08 05:28:40', NULL),
+(221, NULL, 1, '', 0, 0, 0, 3, 8, 0, 21, 'PT Barata Indonesia (PERSERO) Divisi Sumber Daya Air', 'PT Barata Indonesia (PERSERO) Divisi Sumber Daya Air', 'aktif', '2024-05-27', '2029-05-26', '008/Univ.BHAMADA/KL/V/2024', NULL, '2025-01-08 05:29:48', NULL),
+(222, NULL, 1, '', 1, 1, 1, 3, 8, 0, 21, 'RS Mitra Siaga Tarub Kab Tegal', 'RS Mitra Siaga Tarub Kab Tegal', 'aktif', '2024-10-01', '2027-10-01', '029/Univ.BHAMADA/KL/X/2024', NULL, '2025-01-08 05:30:43', NULL);
 
 -- --------------------------------------------------------
 
@@ -2239,25 +2263,25 @@ ALTER TABLE `galeri`
 -- AUTO_INCREMENT for table `instansi`
 --
 ALTER TABLE `instansi`
-  MODIFY `id_instansi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_instansi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `kerjasama`
 --
 ALTER TABLE `kerjasama`
-  MODIFY `id_kerjasama` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=200;
+  MODIFY `id_kerjasama` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=223;
 
 --
 -- AUTO_INCREMENT for table `lapker_bid_akademik`
 --
 ALTER TABLE `lapker_bid_akademik`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `lapker_bid_keuangan`
 --
 ALTER TABLE `lapker_bid_keuangan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lapker_bid_mhs`
@@ -2323,19 +2347,19 @@ ALTER TABLE `lapker_fikom_it`
 -- AUTO_INCREMENT for table `lapker_ik`
 --
 ALTER TABLE `lapker_ik`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lapker_unit_baak`
 --
 ALTER TABLE `lapker_unit_baak`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lapker_unit_bau`
 --
 ALTER TABLE `lapker_unit_bau`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lapker_unit_humas`
@@ -2347,7 +2371,7 @@ ALTER TABLE `lapker_unit_humas`
 -- AUTO_INCREMENT for table `lapker_unit_lab`
 --
 ALTER TABLE `lapker_unit_lab`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lapker_unit_lp2m`
@@ -2365,7 +2389,7 @@ ALTER TABLE `lapker_unit_lpm`
 -- AUTO_INCREMENT for table `lapker_unit_lppm`
 --
 ALTER TABLE `lapker_unit_lppm`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lapker_unit_perpus`
@@ -2377,13 +2401,13 @@ ALTER TABLE `lapker_unit_perpus`
 -- AUTO_INCREMENT for table `lapker_unit_pmb`
 --
 ALTER TABLE `lapker_unit_pmb`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lapker_unit_sarpras`
 --
 ALTER TABLE `lapker_unit_sarpras`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `lapker_univ`
@@ -2413,7 +2437,7 @@ ALTER TABLE `lap_kep_mitra`
 -- AUTO_INCREMENT for table `lap_kinerja`
 --
 ALTER TABLE `lap_kinerja`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `lap_monev`
