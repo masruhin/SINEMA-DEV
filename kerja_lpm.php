@@ -54,6 +54,7 @@ $d_negara = mysqli_num_rows($q_negara);
                       a.pendidikan,
                       a.penelitian,
                       a.pkm,
+                      a.id_fak,
                       a.id_bkerja,
                       e.bkerja_nama,
                       b.id_jenis_dok,
@@ -77,12 +78,14 @@ $d_negara = mysqli_num_rows($q_negara);
                       LEFT JOIN bentuk_kerjasama e ON e.id_bkerja = a.id_bkerja
                       LEFT JOIN jenis_dok b ON b.id_jenis_dok = a.id_jenis_dok
                       LEFT JOIN fakultas d ON d.id_fak = a.id_fak
-                      LEFT JOIN unit c ON c.id_unit= a.id_unit ORDER BY id_kerjasama asc");
+                      LEFT JOIN unit c ON c.id_unit= a.id_unit WHERE a.id_fak=20");
 											if (!$data) {
 												printf("Error: %s\n", mysqli_error($kon));
 												exit();
 											}
 											while($hasil = mysqli_fetch_array($data)){
+                        // var_dump($hasil);
+                        // die;
 											?>
                   <tr>
                     <td>
@@ -106,10 +109,10 @@ $d_negara = mysqli_num_rows($q_negara);
                       <div class="badge badge-pill badge-glow badge-danger"><?php echo $hasil ['status_kerjasama'];?>
                       </div>
                     </td>
-                    
+
                     <?php }?>
-                    
-<td>
+
+                    <td>
                       <?php if ($hasil['file']!=0) {?>
                       <button
                         onclick="JavaScript:window.location.href='kerjasama_download.php?file=<?php echo $hasil['file']?>';"
@@ -119,8 +122,8 @@ $d_negara = mysqli_num_rows($q_negara);
                       <?php }
                     ?>
                     </td>
-                    
-                    
+
+
                     <td style="text-align:center ;">
                       <a href="#" type="button" class="open_modal btn btn-outline-dark round btn-sm" data-toggle="modal"
                         data-target="#view<?php echo $hasil['id_kerjasama']; ?>">Lihat</a>
