@@ -48,8 +48,8 @@ while($hasil = mysqli_fetch_array($data)){
 
   <style>
   body {
-    background: -webkit-linear-gradient(90deg, #ff94fa, #ffff47);
-    background: linear-gradient(90deg, #ff94fa, #ffff47);
+    /*background: -webkit-linear-gradient(90deg, #ff94fa, #ffff47);*/
+    /*background: linear-gradient(90deg, #ff94fa, #ffff47);*/
     font-size: 14px;
     font-weight: 500;
     font-family: Rubik, sans-serif;
@@ -57,7 +57,13 @@ while($hasil = mysqli_fetch_array($data)){
   }
 
   .navbar-container {
-    background-color: #5ad9ff;
+    background-color: #3fbbc0;
+  }
+
+  .navbar.header-navbar .navbar-container {
+    padding: 0.8rem 2rem;
+    height: 60px;
+    border-radius: 40rem;
   }
 
   .table thead,
@@ -88,6 +94,10 @@ while($hasil = mysqli_fetch_array($data)){
   .table tbody tr.highlight td {
     color: black;
     background-color: #F2F5A9;
+  }
+
+  #blue {
+    color: black;
   }
 
   #logo {
@@ -221,7 +231,7 @@ while($hasil = mysqli_fetch_array($data)){
           </ul>
         </div>
         <div class="shadow-bottom"></div>
-        <div class="navbar-container main-menu-content" data-menu="menu-container">
+        <div class="navbar-container main-menu-content" data-menu="menu-container" id="blue">
           <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
             <li data-menu="" <?php if (isset($_GET["home"])){echo 'class="active"';}?>>
               <a class="dropdown-item d-flex align-items-center" href="index.php?home">
