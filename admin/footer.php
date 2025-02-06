@@ -42,14 +42,8 @@ include 'config.php';
 <script src="../vendor/app-assets/js/scripts/forms/form-file-uploader.js"></script>
 <!-- swal -->
 
-<!-- <script src="../vendor/app-assets/js/scripts/extensions/ext-component-sweet-alerts.js"></script> -->
 <!-- HIGHCHART -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<!-- <script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
-<script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
-<!-- HIGHCHART -->
 
 <script src="../vendor/app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
 
@@ -111,13 +105,13 @@ new Chart(ctx, {
         label: 'NATIONAL',
         data: <?= $arr['in']['jml'] ?>,
         borderWidth: 1,
-        backgroundColor: '#d95f02'
+        backgroundColor: '#48012f'
       },
       {
         label: 'INTERNATIONAL',
         data: <?= $arr['out']['jml'] ?>,
         borderWidth: 1,
-        backgroundColor: '#1b9e77'
+        backgroundColor: '#029d00'
       },
     ]
   },

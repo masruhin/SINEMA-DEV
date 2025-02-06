@@ -43,7 +43,7 @@ while($hasil = mysqli_fetch_array($data)){
     <link rel="stylesheet" type="text/css" href="vendor/app-assets/css/core/menu/menu-types/horizontal-menu.css">
     <link rel="stylesheet" type="text/css" href="vendor/app-assets/css/pages/dashboard-ecommerce.css">
     <link rel="stylesheet" type="text/css" href="vendor/app-assets/css/plugins/charts/chart-apex.css">
-    <link rel="stylesheet" type="text/css" href="vendor/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <style>
@@ -54,7 +54,13 @@ while($hasil = mysqli_fetch_array($data)){
     font-weight: 500;
     font-family: Rubik, sans-serif;
     color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+
   }
+
 
   .navbar-container {
     background-color: #3fbbc0;
@@ -119,6 +125,10 @@ while($hasil = mysqli_fetch_array($data)){
 
   <body class="horizontal-layout horizontal-menu  navbar-floating footer-static  " data-open="hover"
     data-menu="horizontal-menu" data-col="">
+
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
 
     <nav class="header-navbar navbar-expand-lg navbar navbar-fixed align-items-center navbar-shadow navbar-brand-center"
       data-nav="brand-center">
