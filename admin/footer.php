@@ -42,8 +42,14 @@ include 'config.php';
 <script src="../vendor/app-assets/js/scripts/forms/form-file-uploader.js"></script>
 <!-- swal -->
 
+<!-- <script src="../vendor/app-assets/js/scripts/extensions/ext-component-sweet-alerts.js"></script> -->
 <!-- HIGHCHART -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
+<!-- HIGHCHART -->
 
 <script src="../vendor/app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
 
@@ -68,13 +74,13 @@ while($data = mysqli_fetch_assoc($semua)) {
     $tahun = $data['tahun'];
     $label[] = $tahun;
 
-    $get_out = mysqli_query($kon, "SELECT YEAR(tanggal_awal) as tahun, COUNT(id_kerjasama) as jml FROM kerjasama WHERE YEAR(tanggal_awal) = '$tahun' AND negara_kat = 'INTERNASIONAL' GROUP BY tahun ORDER BY tahun ASC");
+    $get_out = mysqli_query($kon, "SELECT YEAR(tanggal_awal) as tahun, COUNT(id_kerjasama) as jml FROM kerjasama WHERE YEAR(tanggal_awal) = '$tahun' AND negara_kat = 'LUAR NEGERI' GROUP BY tahun ORDER BY tahun ASC");
     $fetch_out = mysqli_fetch_assoc($get_out);
     $data_out = $fetch_out ? $fetch_out : $empty;
     $tahun_out[] = $data_out['tahun'];
     $jml_out[] = $data_out['jml'];
 
-    $get_in = mysqli_query($kon, "SELECT YEAR(tanggal_awal) as tahun, COUNT(id_kerjasama) as jml FROM kerjasama WHERE YEAR(tanggal_awal) = '$tahun' AND negara_kat = 'NASIONAL' GROUP BY tahun ORDER BY tahun ASC");
+    $get_in = mysqli_query($kon, "SELECT YEAR(tanggal_awal) as tahun, COUNT(id_kerjasama) as jml FROM kerjasama WHERE YEAR(tanggal_awal) = '$tahun' AND negara_kat = 'DALAM NEGERI' GROUP BY tahun ORDER BY tahun ASC");
     $fetch_in = mysqli_fetch_assoc($get_in);
     $data_in = $fetch_in ? $fetch_in : $empty;
     $tahun_in[] = $data_in['tahun'];
@@ -102,16 +108,16 @@ new Chart(ctx, {
   data: {
     labels: <?= $arr['tahun'] ?>,
     datasets: [{
-        label: 'NATIONAL',
+        label: 'Dalam Negeri',
         data: <?= $arr['in']['jml'] ?>,
         borderWidth: 1,
-        backgroundColor: '#48012f'
+        backgroundColor: '#d95f02'
       },
       {
-        label: 'INTERNATIONAL',
+        label: 'Luar Negeri',
         data: <?= $arr['out']['jml'] ?>,
         borderWidth: 1,
-        backgroundColor: '#029d00'
+        backgroundColor: '#1b9e77'
       },
     ]
   },

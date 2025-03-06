@@ -75,7 +75,7 @@ if(empty($_SESSION['username'])){
                     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="myModalLabel110">Edit Data</h5>
+                          <h5 class="modal-title" id="myModalLabel110">Edit Data Galeri</h5>
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
@@ -114,7 +114,6 @@ if(empty($_SESSION['username'])){
                                       placeholder="Masukan tahun" value="<?php echo $row['tahun_lap'];?>">
                                   </div>
                                 </div>
-
                                 <div class="form-group row">
                                   <label class="col-sm-2 col-form-label">Dokumen Sebelumnya</label>
                                   <div class="col-sm-10">
@@ -125,7 +124,6 @@ if(empty($_SESSION['username'])){
                                         </span>
                                       </div>
                                     </div>
-
                                   </div>
                                 </div>
 
@@ -241,7 +239,6 @@ if(empty($_SESSION['username'])){
                           placeholder="Masukan Judul">
                       </div>
                     </div>
-
                     <div class="form-group row">
                       <label for="colFormLabel" class="col-sm-4 col-form-label">
                         <span class="badge badge-pill badge-light-success mr-1 lg"
@@ -253,7 +250,6 @@ if(empty($_SESSION['username'])){
                           placeholder="Masukan tahun">
                       </div>
                     </div>
-
                     <div class="mb-1">
                       <P class="form-label" for="file"><span class="badge badge-pill badge-light-success mr-1 lg"
                           style="background-color: rgb(255 205 21 / 83%); height:25px; color: #020202 !important;">Upload

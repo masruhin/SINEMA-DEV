@@ -1747,7 +1747,7 @@
 			// Backwards compatibility - if there is no sEmptyTable given, then use the same as
 			// sZeroRecords - assuming that is given.
 			if ( ! lang.sEmptyTable && zeroRecords &&
-				defaults.sEmptyTable === "Data Kosong / Tidak Ditemukan.!" )
+				defaults.sEmptyTable === "No data available in table" )
 			{
 				_fnMap( lang, lang, 'sZeroRecords', 'sEmptyTable' );
 			}
@@ -11458,7 +11458,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sEmptyTable": "Data Kosong / Tidak Ditemukan.!",
+			"sEmptyTable": "No data available in table",
 	
 	
 			/**

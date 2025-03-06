@@ -21,13 +21,11 @@ $d_negara = mysqli_num_rows($q_negara);
 ?>
 
 
-
 <div class="app-content content ">
   <div class="content-overlay"></div>
   <div class="header-navbar-shadow"></div>
   <div class="content-wrapper container-xxl p-0">
     <div class="content-body">
-
       <!-- Dashboard Ecommerce Starts -->
       <section id="dashboard-ecommerce">
         <div class="row match-height">
@@ -178,8 +176,8 @@ $d_negara = mysqli_num_rows($q_negara);
                       </div>
                     </td>
                     <?php }?>
-
-                    <td>
+                    
+<td>
                       <?php if ($hasil['file']!=0) {?>
                       <button
                         onclick="JavaScript:window.location.href='kerjasama_download.php?file=<?php echo $hasil['file']?>';"
@@ -189,8 +187,8 @@ $d_negara = mysqli_num_rows($q_negara);
                       <?php }
                     ?>
                     </td>
-
-
+                    
+                    
                     <td style="text-align:center ;">
                       <a href="#" type="button" class="open_modal btn btn-outline-dark round btn-sm" data-toggle="modal"
                         data-target="#view<?php echo $hasil['id_kerjasama']; ?>">Lihat</a>

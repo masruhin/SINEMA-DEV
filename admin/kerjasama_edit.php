@@ -98,9 +98,6 @@ if (empty($_SESSION['username'])) {
                                   <?php echo $negara_kat;?>
                                 </option>
                                 <option>
-                                  LOKAL
-                                </option>
-                                <option>
                                   DALAM NEGERI
                                 </option>
                                 <option>

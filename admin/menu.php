@@ -306,17 +306,17 @@
                   <i data-feather="life-buoy"></i>
                   <span data-i18n="Raise Support">Laporan Kinerja Tahunan</span></a>
               </li>
-              <li data-menu="" <?php if (isset($_GET["lap"])){echo 'class="active"';}?>>
-                <a class="dropdown-item d-flex align-items-center" href="lap_kep_mitra.php?lap" data-toggle="dropdown"
-                  data-i18n="Raise Support">
-                  <i data-feather="life-buoy"></i>
-                  <span data-i18n="Raise Support">Laporan Kepuasan Mitra</span></a>
-              </li>
+              <!--<li data-menu="" <?php if (isset($_GET["lap"])){echo 'class="active"';}?>>-->
+              <!--  <a class="dropdown-item d-flex align-items-center" href="lap_kep_mitra.php?lap" data-toggle="dropdown"-->
+              <!--    data-i18n="Raise Support">-->
+              <!--    <i data-feather="life-buoy"></i>-->
+              <!--    <span data-i18n="Raise Support">Laporan Kepuasan Mitra</span></a>-->
+              <!--</li>-->
               <li data-menu="" <?php if (isset($_GET["lap"])){echo 'class="active"';}?>>
                 <a class="dropdown-item d-flex align-items-center" href="lap_monev.php?lap" data-toggle="dropdown"
                   data-i18n="Raise Support">
                   <i data-feather="life-buoy"></i>
-                  <span data-i18n="Raise Support">Laporan Monev</span></a>
+                  <span data-i18n="Raise Support">Laporan Kepuasan Mitra</span></a>               <!--  ini harusnya laporan monev-->
               </li>
               <li data-menu="" <?php if (isset($_GET["lap"])){echo 'class="active"';}?>>
                 <a class="dropdown-item d-flex align-items-center" href="lap_ami.php?lap" data-toggle="dropdown"

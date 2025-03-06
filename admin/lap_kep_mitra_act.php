@@ -61,6 +61,7 @@ if (isset($_POST['ubah'])) {
   $id = $_POST['id'];
   $judul = $_POST['judul'];
   $tahun_lap = $_POST['tahun_lap'];
+  
   $gambar = $_FILES['dok']['name'];
   if ($gambar != "") {
     $ekstensi_diperbolehkan = array('doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'pdf', 'rar', 'zip', 'png', 'jpg', 'mp4', 'avi');
@@ -93,7 +94,7 @@ if (isset($_POST['ubah'])) {
     
   }else {
     // jalankan query UPDATE berdasarkan ID yang produknya kita edit
-    $query  = "UPDATE lap_kep_mitra SET judul='$judul', tahun_lap='$tahun_lap'WHERE id='$id'";
+    $query  = "UPDATE lap_kep_mitra SET judul='$judul', tahun_lap='$tahun_lap' WHERE id='$id'";
     // $query .= "WHERE id = '$id'";
     $result = mysqli_query($kon, $query);
     // periska query apakah ada error

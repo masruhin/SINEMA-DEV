@@ -56,7 +56,7 @@ include "includes/config.php";
                       <td>
                         <?php if ($hasil['dok']!=0) {?>
                         <button
-                          onclick="JavaScript:window.location.href='download_kep_mitra.php?dok=<?php echo $hasil['dok']?>';"
+                          onclick="JavaScript:window.location.href='download_lap_kep_mitra.php?dok=<?php echo $hasil['dok']?>';"
                           class="btn btn-outline-dark round btn-sm">Download</button>
                         <?php }else{ ?>
                         <span class="badge badge-pill badge-light-danger mr-1 lg">Tidak ada file!</span>
@@ -73,6 +73,7 @@ include "includes/config.php";
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>

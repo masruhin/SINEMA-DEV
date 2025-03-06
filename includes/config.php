@@ -1,9 +1,9 @@
 <?php
 	
 $server   = "localhost";
-$username = "root";
-$password = "";
-$database = "mas";
+$username = "u481187344_sinemasample";
+$password = "Sinemasample12345";
+$database = "u481187344_sinemasample";
 
 // koneksi database
 $kon = new mysqli($server, $username, $password, $database);
